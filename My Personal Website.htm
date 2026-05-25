@@ -197,6 +197,25 @@
                     </div>
                 </div>
 
+                <div class="pt-2 space-y-1">
+                    <a href="#" onclick="showPage('generic', 'My Science Notebook')" class="nav-link relative flex items-start py-1.5 hover:text-white transition text-left text-gray-300">
+                        <span class="w-6 shrink-0"></span>
+                        <span class="font-bold">My Science Notebook</span>
+                    </a>
+                    <a href="#" onclick="showPage('generic', 'Personal Blog')" class="nav-link relative flex items-start py-1.5 hover:text-white transition text-left text-gray-300">
+                        <span class="w-6 shrink-0"></span>
+                        <span class="font-bold">Personal Blog</span>
+                    </a>
+                    <a href="#" onclick="showPage('projects')" class="nav-link relative flex items-start py-1.5 hover:text-white transition text-left text-gray-300">
+                        <span class="w-6 shrink-0"></span>
+                        <span class="font-bold">Projects</span>
+                    </a>
+                    <a href="#" onclick="showPage('important-links')" class="nav-link relative flex items-start py-1.5 hover:text-white transition text-left text-gray-300">
+                        <span class="w-6 shrink-0"></span>
+                        <span class="font-bold">Important Links</span>
+                    </a>                    
+                </div>
+
                 <div class="py-1">
                     <button class="flex items-start w-full hover:text-white transition group text-left" onclick="toggleDropdown('res-menu', 'res-icon')" aria-expanded="false" aria-controls="res-menu">
                         <span class="w-6 shrink-0 flex justify-start pt-1.5"><i class="fas fa-chevron-down text-[10px] transition-transform" id="res-icon"></i></span>
@@ -233,25 +252,7 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="pt-2 space-y-1">
-                    <a href="#" onclick="showPage('generic', 'My Science Notebook')" class="nav-link relative flex items-start py-1.5 hover:text-white transition text-left text-gray-300">
-                        <span class="w-6 shrink-0"></span>
-                        <span class="font-bold">My Science Notebook</span>
-                    </a>
-                    <a href="#" onclick="showPage('important-links')" class="nav-link relative flex items-start py-1.5 hover:text-white transition text-left text-gray-300">
-                        <span class="w-6 shrink-0"></span>
-                        <span class="font-bold">Important Links</span>
-                    </a>
-                    <a href="#" onclick="showPage('generic', 'Personal Blog')" class="nav-link relative flex items-start py-1.5 hover:text-white transition text-left text-gray-300">
-                        <span class="w-6 shrink-0"></span>
-                        <span class="font-bold">Personal Blog</span>
-                    </a>
-                    <a href="#" onclick="showPage('projects')" class="nav-link relative flex items-start py-1.5 hover:text-white transition text-left text-gray-300">
-                        <span class="w-6 shrink-0"></span>
-                        <span class="font-bold">Projects</span>
-                    </a>
-                </div>
+                
             </nav>
 
             <div class="mt-auto pt-12 pb-2 text-center w-full">
@@ -283,14 +284,14 @@
                             <div class="shrink-0 flex flex-col items-center">
                                 <div class="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border border-gray-200 bg-gray-50 flex items-center justify-center" aria-label="Profile Placeholder">
                                     <i class="fas fa-user text-5xl text-gray-300 absolute z-0"></i>
-                                    <img src="assets/images/profile.jpg" alt="Krithagho Chakma" class="relative z-10 w-full h-full object-cover object-center scale-150 -translate-x-3" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                                    <img src="assets/images/profile.jpg" alt="Krithagho Chakma" class="relative z-10 w-full h-full object-cover object-center scale-150 -translate-x-3 translate-y-3" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
                                     
                                 </div>
                                 <div class="mt-4 flex space-x-3">
-                                    <a href="https://www.linkedin.com/in/krithagho-chakma" aria-label="LinkedIn Profile" class="text-gray-400 hover:text-[#0077b5] transition-colors"><i class="fab fa-linkedin text-xl"></i></a>
-                                    <a href="https://scholar.google.com/citations?user=XXXXXXXXXXX&hl=en" aria-label="Google Scholar Profile" class="text-gray-400 hover:text-[#4285F4] transition-colors"><i class="fas fa-graduation-cap text-xl"></i></a>
-                                    <a href="https://github.com/krithagho-chakma" aria-label="GitHub Profile" class="text-gray-400 hover:text-[#333333] transition-colors"><i class="fab fa-github text-xl"></i></a>
-                                    <a href="https://orcid.org/0000-0002-1234-5678" aria-label="ORCID Profile" class="text-gray-400 hover:text-[#A6CE39] transition-colors"><i class="fab fa-orcid text-xl"></i></a>
+                                    <a href="https://www.linkedin.com/in/krithagho-chakma" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="text-gray-400 hover:text-[#0077b5] transition-colors"><i class="fab fa-linkedin text-xl"></i></a>
+                                    <a href="https://scholar.google.com/citations?user=XXXXXXXXXXX&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar Profile" class="text-gray-400 hover:text-[#4285F4] transition-colors"><i class="fas fa-graduation-cap text-xl"></i></a>
+                                    <a href="https://github.com/krithagho-chakma" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" class="text-gray-400 hover:text-[#333333] transition-colors"><i class="fab fa-github text-xl"></i></a>
+                                    <a href="https://orcid.org/0000-0002-1234-5678" target="_blank" rel="noopener noreferrer" aria-label="ORCID Profile" class="text-gray-400 hover:text-[#A6CE39] transition-colors"><i class="fab fa-orcid text-xl"></i></a>
                                     <a href="mailto:krithagho.chakma@gmail.com" aria-label="Email Contact" class="text-gray-400 hover:text-[#EA4335] transition-colors"><i class="fas fa-envelope text-xl"></i></a>
                                 </div>
                             </div>
@@ -302,12 +303,13 @@
                                 <div class="bg-gray-50 border-l-4 border-sidebar p-4 mb-6 rounded-r text-sm text-gray-800">
                                     <strong>Objective:</strong> Actively seeking funded Master's (e.g., Erasmus Mundus) and PhD opportunities for Fall 2027, focusing on Semiconductor Device Physics, Photonics, and Quantum Hardware.
                                 </div>
-
-                                <div class="font-serif text-gray-800 space-y-4 text-justify">
-                                    <p>First of all, I am very thankful to you for visiting my personal website. Before you explore, let me introduce myself.</p>
-                                    <p>I have completed my B.Sc.(Engg.) degree in Electrical and Electronic Engineering at the University of Dhaka. My current intention is to involve myself deeply in research activities. I love conducting independent experiments, and completed my undergraduate project on the numerical study of chalcopyrite-based solar cells.</p>
-                                </div>
                             </div>
+                        </div>
+                        <div class="mt-8 font-serif text-gray-800 space-y-4 text-justify">
+                            <p><span class="text-4xl font-bold tracking-widest text-sidebar float-left mr-1.5 leading-none mt-1">F</span>irst of all, I am very thankful to you for visiting my personal website. Before you explore, let me introduce myself.</p>
+                            <p>I am <strong>Krithagho Chakma</strong>. I have completed my B.Sc.(Engg.) degree in Electrical and Electronic Engineering at the University of Dhaka. Before attending my current institution, I was in my home village and I had completed my secondary and higher secondary level education there in Govt. funded school and college.</p>
+                            <p>My current intention is to involve in research activities. I love doing some experiment by my own-self, not mandatorily a well constructed one. I have done my one project on numerical and ML approach study of chalcopyrite based solar cell as my undergraduate project work.</p>
+                            <p>I am a person who always loves to be simple and to stay without any troubles with others. I don't like that kind of person who speaks so much unnecessarily.  In my leisure times, I always like to wake up late in the morning and like to stay away from all kinds of materialistic actions. And I love to travel to rural areas.</p>
                         </div>
                     </div>
                 </section>
@@ -322,31 +324,31 @@
                                 <h3 class="font-bold text-gray-900 mb-2 flex items-center border-b border-gray-200 pb-1">
                                     <i class="fas fa-atom w-5 text-gray-400 mr-2 text-sm" aria-hidden="true"></i> Solid-State & Spin Qubits
                                 </h3>
-                                <p class="text-sm text-gray-600 font-serif leading-relaxed">Semiconductor Quantum Dots, Spin Coherence, and Advanced Device Fabrication modeling.</p>
+                                <p class="text-sm text-justify text-gray-600 font-serif leading-relaxed">Semiconductor Quantum Dots, Spin Coherence, and Advanced Device Fabrication modeling.</p>
                             </div>
                             <div>
                                 <h3 class="font-bold text-gray-900 mb-2 flex items-center border-b border-gray-200 pb-1">
                                     <i class="fas fa-snowflake w-5 text-gray-400 mr-2 text-sm" aria-hidden="true"></i> Cryogenic Simulation
                                 </h3>
-                                <p class="text-sm text-gray-600 font-serif leading-relaxed">TCAD Solvers, Carrier Charge Transport mechanisms, and &lt; 4K Electrostatics.</p>
+                                <p class="text-sm text-justify text-gray-600 font-serif leading-relaxed">TCAD Solvers, Carrier Charge Transport mechanisms, and &lt; 4K Electrostatics.</p>
                             </div>
                             <div>
                                 <h3 class="font-bold text-gray-900 mb-2 flex items-center border-b border-gray-200 pb-1">
                                     <i class="fas fa-wave-square w-5 text-gray-400 mr-2 text-sm" aria-hidden="true"></i> Quantum Photonics
                                 </h3>
-                                <p class="text-sm text-gray-600 font-serif leading-relaxed">Photonic Integrated Circuits, Optoelectronics, and modeling of Single-Photon Emitters.</p>
+                                <p class="text-sm text-justify text-gray-600 font-serif leading-relaxed">Photonic Integrated Circuits, Optoelectronics, and modeling of Single-Photon Emitters.</p>
                             </div>
                             <div>
                                 <h3 class="font-bold text-gray-900 mb-2 flex items-center border-b border-gray-200 pb-1">
                                     <i class="fas fa-solar-panel w-5 text-gray-400 mr-2 text-sm" aria-hidden="true"></i> Photovoltaics & Solar Cells
                                 </h3>
-                                <p class="text-sm text-gray-600 font-serif leading-relaxed">Device modeling, efficiency optimization, and machine learning integration for thin-film solar technologies.</p>
+                                <p class="text-sm text-justify text-gray-600 font-serif leading-relaxed">Device modeling, efficiency optimization, and machine learning integration for thin-film solar technologies.</p>
                             </div>
                             <div>
                                 <h3 class="font-bold text-gray-900 mb-2 flex items-center border-b border-gray-200 pb-1">
-                                    <i class="fas fa-microchip w-5 text-gray-400 mr-2 text-sm" aria-hidden="true"></i> Bio-electronics
+                                    <i class="fas fa-microchip w-5 text-gray-400 mr-2 text-sm text-justify" aria-hidden="true"></i> Bio-electronics
                                 </h3>
-                                <p class="text-sm text-gray-600 font-serif leading-relaxed">Interfacing electronic and semiconductor hardware with biological systems for advanced sensing.</p>
+                                <p class="text-sm text-justify text-gray-600 font-serif leading-relaxed">Interfacing electronic and semiconductor hardware with biological systems for advanced sensing.</p>
                             </div>
                         </div>
 
@@ -357,13 +359,13 @@
                                 <h3 class="font-bold text-gray-900 mb-2 flex items-center border-b border-gray-200 pb-1">
                                     <i class="fas fa-tree w-5 text-gray-400 mr-2 text-sm" aria-hidden="true"></i> Rural Exploration
                                 </h3>
-                                <p class="text-sm text-gray-600 font-serif leading-relaxed">Traveling to remote rural landscapes to observe untamed environments and experience local culture.</p>
+                                <p class="text-sm text-justify text-gray-600 font-serif leading-relaxed">Traveling to remote rural landscapes to observe untamed environments and experience local culture.</p>
                             </div>
                             <div>
                                 <h3 class="font-bold text-gray-900 mb-2 flex items-center border-b border-gray-200 pb-1">
                                     <i class="fas fa-dumbbell w-5 text-gray-400 mr-2 text-sm" aria-hidden="true"></i> Fitness & Bodybuilding
                                 </h3>
-                                <p class="text-sm text-gray-600 font-serif leading-relaxed">Cultivating physical resilience, health, and mental discipline through structured strength training.</p>
+                                <p class="text-sm text-justify text-gray-600 font-serif leading-relaxed">Cultivating physical resilience, health, and mental discipline through structured strength training.</p>
                             </div>
                         </div>
                     </div>
@@ -495,9 +497,11 @@
             <div id="cv-page" class="page-content hidden py-12 px-6 md:px-16 lg:px-24 max-w-5xl mx-auto min-h-screen">
                 <div class="flex justify-between items-end pb-2 mb-8">
                     <h2 class="font-serif text-3xl font-bold text-gray-900 inline-block border-b-[3px] border-sidebar pb-2">Curriculum Vitae</h2>
+                    <!--
                     <a href="assets/docs/Krithagho_Chakma_CV.pdf" download="Krithagho_Chakma_CV.pdf" class="text-sm font-bold text-blue-700 hover:underline flex items-center pb-2">
                         <i class="fas fa-download mr-1.5"></i> Download PDF
                     </a>
+                    -->
                 </div>
                 
                 <div class="w-full h-[800px] border border-gray-300 rounded shadow-sm bg-white overflow-hidden">
@@ -811,10 +815,11 @@
 
         <!-- ================= FOOTER / CREDIT BANNER ================= -->
         <footer class="w-full bg-gray-50 border-t border-gray-200 py-8 mt-12 text-center">
-            <div class="max-w-5xl mx-auto px-6 md:px-16 lg:px-24 flex justify-center items-center">
+            <div class="max-w-5xl mx-auto px-6 md:px-16 lg:px-24 flex flex-col justify-center items-center gap-2">
                 <p class="font-serif text-gray-600 text-sm">
                     &copy; 2026 Krithagho Chakma. All rights reserved.
                 </p>
+                <p class="font-sans text-gray-400 text-xs tracking-wide" id="last-updated-text"> </p>
             </div>
         </footer>
 
@@ -825,19 +830,39 @@
         function updateIndicator() {
             const activeLink = document.querySelector('.nav-link.text-white.font-bold');
             const indicator = document.getElementById('floating-indicator');
+            const mainNav = document.getElementById('main-nav');
             
-            if (activeLink && indicator) {
+            if (activeLink && indicator && mainNav) {
                 if (activeLink.offsetHeight === 0) {
                     indicator.style.opacity = '0';
                 } else {
-                    indicator.style.top = activeLink.offsetTop + 'px';
+                    // Calculate exact top offset by climbing the DOM (immune to scroll/zoom bugs)
+                    let offsetTop = 0;
+                    let currentElement = activeLink;
+                    
+                    while (currentElement && currentElement !== mainNav) {
+                        offsetTop += currentElement.offsetTop;
+                        currentElement = currentElement.offsetParent;
+                    }
+                    
+                    indicator.style.transform = `translateY(${offsetTop}px)`;
                     indicator.style.height = activeLink.offsetHeight + 'px';
                     indicator.style.opacity = '1';
                 }
             }
         }
 
-        document.addEventListener('DOMContentLoaded', updateIndicator);
+        document.addEventListener('DOMContentLoaded', () => {
+            updateIndicator();
+            
+            // The ResizeObserver instantly snaps the indicator to the correct place 
+            // if text wraps, fonts load, or dropdowns push elements around.
+            const mainNav = document.getElementById('main-nav');
+            if (window.ResizeObserver && mainNav) {
+                new ResizeObserver(updateIndicator).observe(mainNav);
+            }
+        });
+
         window.addEventListener('resize', updateIndicator);
 
         function toggleSidebar() {
@@ -869,7 +894,8 @@
                 icon.classList.toggle('rotate-180');
             }
 
-            setTimeout(updateIndicator, 50);
+            // Force an indicator update
+            updateIndicator();
         }
 
         function showPage(pageId, title = '') {
@@ -902,7 +928,8 @@
                 if (pageId === 'generic') {
                     return clickAttr.includes(`'${pageId}'`) && clickAttr.includes(`'${title}'`);
                 } else {
-                    return clickAttr.includes(`'${pageId}'`);
+                    // Exact match the function call to prevent misfires
+                    return clickAttr.includes(`showPage('${pageId}')`) || clickAttr.includes(`showPage('${pageId}',`);
                 }
             });
 
@@ -949,6 +976,14 @@
         setInterval(updateClock, 1000);
         updateClock();
 
+        // --- NEW AUTO-UPDATE DATE SCRIPT ---
+        const updateDate = new Date(document.lastModified);
+        const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+        const formattedDate = updateDate.toLocaleDateString('en-US', dateOptions);
+        const lastUpdatedElement = document.getElementById('last-updated-text');
+        if (lastUpdatedElement) {
+            lastUpdatedElement.textContent = `Last updated: ${formattedDate}`;
+        }
     </script>
 </body>
 </html>
