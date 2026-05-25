@@ -282,14 +282,16 @@
                             
                             <div class="shrink-0 flex flex-col items-center">
                                 <div class="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border border-gray-200 bg-gray-50 flex items-center justify-center" aria-label="Profile Placeholder">
-                                    <i class="fas fa-user text-5xl text-gray-300"></i>
+                                    <i class="fas fa-user text-5xl text-gray-300 absolute z-0"></i>
+                                    <img src="assets/images/profile.jpg" alt="Krithagho Chakma" class="relative z-10 w-full h-full object-cover object-center scale-150 -translate-x-3" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                                    
                                 </div>
                                 <div class="mt-4 flex space-x-3">
-                                    <a href="#" aria-label="LinkedIn Profile" class="text-gray-400 hover:text-[#0077b5] transition-colors"><i class="fab fa-linkedin text-xl"></i></a>
-                                    <a href="#" aria-label="Google Scholar Profile" class="text-gray-400 hover:text-[#4285F4] transition-colors"><i class="fas fa-graduation-cap text-xl"></i></a>
-                                    <a href="#" aria-label="GitHub Profile" class="text-gray-400 hover:text-[#333333] transition-colors"><i class="fab fa-github text-xl"></i></a>
-                                    <a href="#" aria-label="ORCID Profile" class="text-gray-400 hover:text-[#A6CE39] transition-colors"><i class="fab fa-orcid text-xl"></i></a>
-                                    <a href="#" aria-label="Email Contact" class="text-gray-400 hover:text-[#EA4335] transition-colors"><i class="fas fa-envelope text-xl"></i></a>
+                                    <a href="https://www.linkedin.com/in/krithagho-chakma" aria-label="LinkedIn Profile" class="text-gray-400 hover:text-[#0077b5] transition-colors"><i class="fab fa-linkedin text-xl"></i></a>
+                                    <a href="https://scholar.google.com/citations?user=XXXXXXXXXXX&hl=en" aria-label="Google Scholar Profile" class="text-gray-400 hover:text-[#4285F4] transition-colors"><i class="fas fa-graduation-cap text-xl"></i></a>
+                                    <a href="https://github.com/krithagho-chakma" aria-label="GitHub Profile" class="text-gray-400 hover:text-[#333333] transition-colors"><i class="fab fa-github text-xl"></i></a>
+                                    <a href="https://orcid.org/0000-0002-1234-5678" aria-label="ORCID Profile" class="text-gray-400 hover:text-[#A6CE39] transition-colors"><i class="fab fa-orcid text-xl"></i></a>
+                                    <a href="mailto:krithagho.chakma@gmail.com" aria-label="Email Contact" class="text-gray-400 hover:text-[#EA4335] transition-colors"><i class="fas fa-envelope text-xl"></i></a>
                                 </div>
                             </div>
 
@@ -493,17 +495,17 @@
             <div id="cv-page" class="page-content hidden py-12 px-6 md:px-16 lg:px-24 max-w-5xl mx-auto min-h-screen">
                 <div class="flex justify-between items-end pb-2 mb-8">
                     <h2 class="font-serif text-3xl font-bold text-gray-900 inline-block border-b-[3px] border-sidebar pb-2">Curriculum Vitae</h2>
-                    <a href="your-cv.pdf" download="Krithagho_Chakma_CV.pdf" class="text-sm font-bold text-blue-700 hover:underline flex items-center pb-2">
+                    <a href="assets/docs/Krithagho_Chakma_CV.pdf" download="Krithagho_Chakma_CV.pdf" class="text-sm font-bold text-blue-700 hover:underline flex items-center pb-2">
                         <i class="fas fa-download mr-1.5"></i> Download PDF
                     </a>
                 </div>
-
-                <div class="w-full h-[600px] md:h-[800px] bg-gray-50 border border-gray-200 flex flex-col items-center justify-center text-gray-400">
-                    <i class="fas fa-file-pdf text-5xl mb-4 text-gray-300" aria-hidden="true"></i>
-                    <p class="font-sans text-center px-4 text-sm">
-                        Embed your CV here using an iframe:<br> 
-                        <code class="bg-gray-200 px-2 py-1 rounded text-xs mt-2 block">&lt;iframe src="your-cv.pdf" class="w-full h-full" title="Curriculum Vitae"&gt;&lt;/iframe&gt;</code>
-                    </p>
+                
+                <div class="w-full h-[800px] border border-gray-300 rounded shadow-sm bg-white overflow-hidden">
+                    <iframe src="assets/docs/Krithagho_Chakma_CV.pdf" class="w-full h-full" title="Curriculum Vitae" type="application/pdf">
+                        <p class="font-serif text-center p-10 text-gray-600">It appears your browser does not support embedded PDFs. 
+                            <a href="assets/docs/Krithagho_Chakma_CV.pdf" class="text-blue-700 underline font-bold">Click here to download it.</a>
+                        </p>
+                    </iframe>
                 </div>
             </div>
 
